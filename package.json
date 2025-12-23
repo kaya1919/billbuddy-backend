@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "Backend for a Splitwise-like expense sharing application.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+ "scripts": {
+  "start": "node src/index.js",
+  "dev": "nodemon src/index.js"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kaya1919/billbuddy-backend.git"
