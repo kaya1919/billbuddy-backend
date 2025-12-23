@@ -12,6 +12,13 @@ app.get("/", (req, res) => {
 });
 
 app.use("/users", require("./routes/userRoutes"));
+app.use("/groups", require("./routes/groupRoutes"));
+app.use("/expenses", require("./routes/expenseRoutes"));
+app.use("/balances", require("./routes/balanceRoutes"));
+app.use("/simplify", require("./routes/simplifyRoutes"));
+app.use("/settle", require("./routes/settlementRoutes"));
+
+
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
