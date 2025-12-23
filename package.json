@@ -1,0 +1,23 @@
+{
+  "name": "billbuddy-backend",
+  "version": "1.0.0",
+  "description": "Backend for a Splitwise-like expense sharing application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaya1919/billbuddy-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaya1919/billbuddy-backend/issues"
+  },
+  "homepage": "https://github.com/kaya1919/billbuddy-backend#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
